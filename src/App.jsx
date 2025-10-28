@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-regular-svg-icons';
 import NavBar from './components/NavBar';
 import FolderCard from './components/FolderCard';
-import FolderCardsList from './pages/folderCardsList';
+import FolderCardsList from './pages/FolderCardsList';
 import { Route, Routes } from 'react-router-dom';
 import FolderCardListDetail from './pages/FolderCardListDetail';
 import Stats from './pages/Stats';
