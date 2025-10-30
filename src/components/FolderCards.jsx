@@ -210,7 +210,7 @@ function FolderCards() {
       } */}
       {
         folders.length === 0 && !search && (
-          <div className="absolute top-[40%] md:left-[45%] left-[35%] flex justify-center items-center fade-in">
+          <div className="absolute top-[40%] md:top-[65%] lg:top-[40%] md:left-[45%] left-[35%] flex justify-center items-center fade-in">
             <img className='w-[50px] h-[50px] md:w-[80px] md:h-[80px] md:mt-[190px] mt-[250px]' style={{
               transform: 'rotate(-110deg)',
             }} src={curveArrow} alt="arrow" />
