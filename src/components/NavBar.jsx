@@ -98,10 +98,13 @@ export default function NavBar() {
             <div className="w-[100px] md:w-[120px] h-[40px] flex justify-center items-center gap-[0px] md:gap-[0px] rounded-[12px]" style={{
               backgroundColor: 'white'
             }}>
-              <h4 className="w-[70px] md:w-[80px] text-[12px] md:text-[14px] rounded-[7px]" style={{
-                // backgroundColor: 'black',
-                color: 'white'
-              }}>See Stats</h4>
+              <h4 
+              className="hidden md:block w-[70px] md:w-[80px] text-[12px] md:text-[14px] rounded-[7px]" 
+              style={{
+                color: 'white',
+              }}
+              
+              >See Stats</h4>
               {
                 stats ? (
                   <KeyboardArrowDownIcon sx={{
