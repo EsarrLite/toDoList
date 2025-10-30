@@ -95,7 +95,7 @@ export default function NavBar() {
                 </div>
               )
             }
-            <div className="w-[100px] md:w-[120px] h-[40px] flex justify-center items-center gap-[0px] md:gap-[0px] rounded-[12px]" style={{
+            <div className="hidden md:block w-[100px] md:w-[120px] h-[40px] flex justify-center items-center gap-[0px] md:gap-[0px] rounded-[12px]" style={{
               backgroundColor: 'white'
             }}>
               <h4 
