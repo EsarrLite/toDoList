@@ -146,6 +146,10 @@ input[type="checkbox"] {
   }
 }
 
+.stats-btn {
+  box-shadow: none !important;
+}
+
 .MuiFormControl-root {
   background-color: #ffffff !important;
   border: 3px solid #000000 !important;
