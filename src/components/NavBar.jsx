@@ -79,7 +79,7 @@ export default function NavBar() {
         <Toolbar>
           <AddBtn />
           <Box sx={{ flexGrow: 1 }} />
-          <IconButton color="inherit" onClick={() => setStats(!stats)} className="w-[100px] h-[20px] absolute md:right-[100px]">
+          <IconButton color="inherit" onClick={() => setStats(!stats)} className="hidden md:block w-[100px] h-[20px] absolute md:right-[100px]">
             {
               stats && (
                 <div className="absolute bottom-[80px] w-[200px] h-[200px] flex justify-center items-center rounded-[20px]" style={{
