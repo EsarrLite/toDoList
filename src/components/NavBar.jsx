@@ -83,7 +83,7 @@ export default function NavBar() {
             {
               stats && (
                 <div className="absolute bottom-[80px] w-[200px] h-[200px] flex justify-center items-center rounded-[20px]" style={{
-                  backgroundColor: '#259aac'
+                  backgroundColor: 'white'
                 }}>
                   {
                     folders.length > 0 ? (

@@ -10,19 +10,15 @@
   font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
-/* Black and white cartoonish theme */
 * {
   font-family: 'Comic Sans MS', cursive, sans-serif !important;
 }
 
-/* Override all backgrounds to white */
 div[style*="background-color"] {
-  /* background-color: #ffffff !important; */
   border: 3px solid #000000 !important;
   box-shadow: 4px 4px 0px #000000 !important;
 }
 
-/* Override purple/violet backgrounds */
 div[style*="#885DE2"],
 div[style*="#7E57CF"],
 div[style*="#A979D9"],
@@ -34,7 +30,6 @@ div[style*="#2C1659"] {
   box-shadow: 4px 4px 0px #000000 !important;
 }
 
-/* Override blue backgrounds */
 div[style*="#2CB3C7"],
 div[style*="#259aac"],
 div[style*="#298FA6"],
@@ -45,50 +40,20 @@ div[style*="#1ec7c3"] {
   box-shadow: 4px 4px 0px #000000 !important;
 }
 
-/* Keep red backgrounds original */
+
 div[style*="#FF606C"],
 div[style*="#fc3a3a"] {
   border: 3px solid #000000 !important;
   box-shadow: 4px 4px 0px #000000 !important;
 }
 
-/* Keep yellow/green backgrounds original */
+
 div[style*="#fcc82b"],
 div[style*="#2bfc5c"] {
   border: 3px solid #000000 !important;
   box-shadow: 4px 4px 0px #000000 !important;
 }
 
-/* Preserve level indicator circle colors - override the general background override */
-/* div[style*="backgroundColor: level === 1 ? \"#fc3a3a\""] {
-  background-color: #fc3a3a !important;
-}
-
-div[style*="backgroundColor: level === 2 ? \"#fcc82b\""] {
-  background-color: #fcc82b !important;
-}
-
-div[style*="backgroundColor: level === 3 ? \"#2bfc5c\""] {
-  background-color: #2bfc5c !important;
-} */
-
-/* Alternative approach - target by the exact color values in style attribute */
-/* div[style*="#fc3a3a"] {
-  background-color: #fc3a3a !important;
-}
-
-div[style*="#fcc82b"] {
-  background-color: #fcc82b !important;
-}
-
-div[style*="#2bfc5c"] {
-  background-color: #2bfc5c !important;
-} */
-
-/* Most specific - target the circle element structure */
-
-
-/* Force specific colors for level indicators */
 div[style*="level === 1"] {
   background-color: #fc3a3a !important;
 }
@@ -101,7 +66,6 @@ div[style*="level === 3"] {
   background-color: #2bfc5c !important;
 }
 
-/* Override other colored backgrounds */
 div[style*="#AA81FF"],
 div[style*="#ad73ff"] {
   background-color: #ffffff !important;
@@ -109,7 +73,6 @@ div[style*="#ad73ff"] {
   box-shadow: 4px 4px 0px #000000 !important;
 }
 
-/* Make all text black */
 h1,
 h2,
 h3,
@@ -123,20 +86,17 @@ label {
   color: #000000 !important;
 }
 
-/* Override white text to black */
 .text-white,
 [style*="color: white"],
 [style*="color: 'white'"] {
   color: #000000 !important;
 }
 
-/* Override colored text to black */
 [style*="color: yellow"],
 [style*="color: 'yellow'"] {
   color: #000000 !important;
 }
 
-/* Make buttons cartoonish */
 button {
   background-color: #ffffff !important;
   border: 3px solid #000000 !important;
@@ -156,7 +116,6 @@ button:active {
   box-shadow: 1px 1px 0px #000000 !important;
 }
 
-/* Make inputs cartoonish */
 input {
   background-color: #ffffff !important;
   border: 3px solid #000000 !important;
@@ -164,13 +123,11 @@ input {
   font-weight: bold !important;
 }
 
-/* Make checkboxes cartoonish */
 input[type="checkbox"] {
   accent-color: #000000 !important;
   border: 2px solid #000000 !important;
 }
 
-/* Override Material-UI components */
 .MuiAppBar-root {
   background-color: #ffffff !important;
   border-top: 4px solid #000000 !important;
@@ -189,14 +146,13 @@ input[type="checkbox"] {
   box-shadow: 3px 3px 0px #000000 !important;
 }
 
-/* App.css */
+
 .fade-in {
   opacity: 0;
   transform: translateX(-100px);
   animation: fadeIn 0.7s forwards;
   animation-delay: 0.3s;
   animation-fill-mode: both;
-  /* important */
 }
 
 @keyframes fadeIn {
