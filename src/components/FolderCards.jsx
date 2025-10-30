@@ -48,11 +48,11 @@ function FolderCards() {
                 bottom: {
                   sm: '93.5%',
                   md: '70px',
-                  xs: '560px',
+                  xs: '629px',
                 },
                 left: {
                   sm: '40px',
-                  xs: '30px',
+                  xs: '50px',
                   md: '10px'
                 }
               }}>
